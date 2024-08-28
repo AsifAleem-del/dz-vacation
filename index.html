@@ -12,14 +12,20 @@
     <body>
         <header>
             <nav>
-                <a href="" class="logo"><img src="./img/logo.png" height="50" /></a>
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Tours</a>
-                <a href="">Group Tours</a>
-                <a href="">Destinations</a>
-                <a href="">Contact Us</a>
-                <a href="">Career</a>
+                <div class="m-navigatior" id="iconToggle" onclick="toggleNav(this)">
+                    <span class="humberger"><i class="fa-solid fa-bars"></i></span>
+                    <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div onclick="removeActive()">
+                    <a href="#" class="logo"><img src="./img/logo.png" height="50" /></a>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Tours</a>
+                    <a href="#">Group Tours</a>
+                    <a href="#">Destinations</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Career</a>
+                </div>
             </nav>
         </header>
         <section class="carousel">

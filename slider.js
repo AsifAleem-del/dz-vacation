@@ -42,3 +42,14 @@ function showSlider(type){
     nextDom.click();
  }, timeAutoNext);
 }
+
+
+
+ // Mobile view Navigation toggle code start from here
+ function toggleNav(x) {
+    x.classList.toggle("active");
+  }
+  function removeActive() {
+    var element = document.getElementById("iconToggle");
+    element.classList.remove("active");
+  }
