@@ -10,20 +10,20 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
-        <header>
+        <header id="home">
             <nav>
                 <div class="m-navigatior" id="iconToggle" onclick="toggleNav(this)">
                     <span class="humberger"><i class="fa-solid fa-bars"></i></span>
                     <span class="close"><i class="fa-solid fa-xmark"></i></span>
                 </div>
                 <div onclick="removeActive()">
-                    <a href="#" class="logo"><img src="./img/logo.png" height="50" /></a>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Tours</a>
-                    <a href="#">Group Tours</a>
-                    <a href="#">Destinations</a>
-                    <a href="#">Contact Us</a>
+                    <a href="#home" class="logo"><img src="./img/logo.png" height="50" /></a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#tours">Tours</a>
+                    <a href="#clients">Our Clients</a>
+                    <a href="#">Packages</a>
+                    <a href="#contact">Contact Us</a>
                     <a href="#">Career</a>
                 </div>
             </nav>
@@ -41,7 +41,7 @@
                         
                             <div class="buttons">
                                 <button>SEE MORE</button>
-                                <button>SUBSCRIPE</button>
+                                <button>SUBSCRIBE</button>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                         
                             <div class="buttons">
                                 <button>SEE MORE</button>
-                                <button>SUBSCRIPE</button>
+                                <button>SUBSCRIBE</button>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                         
                             <div class="buttons">
                                 <button>SEE MORE</button>
-                                <button>SUBSCRIPE</button>
+                                <button>SUBSCRIBE</button>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                         
                             <div class="buttons">
                                 <button>SEE MORE</button>
-                                <button>SUBSCRIPE</button>
+                                <button>SUBSCRIBE</button>
                             </div>
                         </div>
                     </div>
@@ -126,12 +126,17 @@
                 </div>
             </div>
             <div class="arrows">
-                <button id="prev"><</button>
-                <button id="next">></button>
+                <button id="prev">
+                   <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+                <button id="next">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
             </div>
             <div class="time"></div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
+            <div class="reveal">
             <aside class="left">
                 <span class="img-1">
                     <img src="img/1.jpg" alt="about us" height="250">
@@ -170,9 +175,10 @@ process with modern, cutting edge technologies.
                 </p>
                 <button class="btn mr-t-16">Read more</button>
             </aside>
+            </div>
         </section>
-        <section class="packages">
-            <div class="container">
+        <section class="packages" id="tours">
+            <div class="container reveal">
               <div class="heading-text">
                 <h2> Domestic And Internation Tours</h2>
               </div>
@@ -214,8 +220,8 @@ process with modern, cutting edge technologies.
             </div>
             </div>
         </section>
-        <section class="contact">
-            <div class="container">
+        <section class="contact" id="contact">
+            <div class="container reveal">
               <div class="heading-text">
                 <h2>Contact Us</h2>
               </div>
