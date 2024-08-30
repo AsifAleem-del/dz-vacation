@@ -100,8 +100,9 @@ section.about aside.left span.img-1 img,section.about aside.left span.img-2 img 
 section.about aside.left span.img-2 {position:absolute; top:70px; left:260px;}
 section.about aside.right h2 {text-transform: uppercase; color:#00a4d9; font-size: 24px;}
 section.about aside.right p.about-text {color:#1d1d1d; font-size:14px; line-height: 20px; margin-top: 16px;}
-button.btn {background-color:#00a4d9; color:#fff; padding:12px 16px; opacity: 0.8; transition: 0.5s; cursor: pointer; display:inline-block; border:none; border-radius: 4px;}
+button.btn {background-color:#00a4d9; color:#fff; padding:12px 16px; opacity: 0.8; transition: 0.5s; cursor: pointer; display:inline-block; border:solid 1px #00a4d9; border-radius: 4px;}
 button.btn:hover {opacity: 1; cursor: pointer;}
+button.secondarybtn,a.secondarybtn {background-color:#fff; color:#00a4d9; border: solid 1px #00a4d9; padding:12px 16px; line-height: 16px; transition: 0.5s; cursor: pointer; display:inline-block; border-radius: 4px;}
 .mr-t-16 {margin-top:16px;}
 
 section.packages {display: flex; justify-content: center; align-items: center; background-color:#daf5ff; height: auto; padding: 32px 0px;}
@@ -117,9 +118,10 @@ section.packages .slider-wrapper .image-list .image-item:hover {transform:scale(
 section.packages .heading-text h2 {text-transform: uppercase; color: #00a4d9; font-size:24px; text-align: center; padding:32px 0px 32px 0px;}
 section.packages .button-container {display: flex; justify-content: center; margin-bottom: 16px;}
 
-section.clients {background-color: #fff; width: 100%; display: flex; justify-content: center; padding: 32px 0px;}
+section.clients {background-color: #fff; width: 100%; height: auto; display: flex; justify-content: center; padding: 32px 0px;}
 section.clients .container {width:80%; position: relative; padding: 0px;}
-section.clients .container h2 {text-transform: uppercase; color: #00a4d9;font-size: 24px;text-align: center;padding: 32px 0px 32px 0px;}
+section.clients .container h2 {text-transform: uppercase; color: #00a4d9;font-size: 24px;text-align: center;padding:50px 0px 32px 0px;}
+section.clients .container .clents-logo {width: 100%; display: flex; padding:30px 0px 50px 0px;}
 
 section.contact {display: flex; justify-content: center; align-items: center; background-color: #f0f8fb; position:relative; height: auto; padding:50px 0px 25px 0px; background-image: url(img/3.jpg); background-size: cover; background-attachment: fixed;}
 section.contact::after {content:''; position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(0,0,0,0.7);}
@@ -193,4 +195,5 @@ section.contact .copyright span.copyright-text {color: #fff; font-size: 12px;}
     .arrows button#next {right: auto; bottom: 20%; margin-left: 70px;}
     .arrows button#prev {left: auto; bottom: 20%; margin-right: 70px;}
     section.contact .copyright span.copyright-text .developer-text {display:block; padding-top: 8px;}
+    section.clients .container {width: 100%; padding:0px 24px;}
 }
