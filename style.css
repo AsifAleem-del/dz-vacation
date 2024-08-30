@@ -192,4 +192,5 @@ section.contact .copyright span.copyright-text {color: #fff; font-size: 12px;}
     .arrows {justify-content: center;}
     .arrows button#next {right: auto; bottom: 20%; margin-left: 70px;}
     .arrows button#prev {left: auto; bottom: 20%; margin-right: 70px;}
+    section.contact .copyright span.copyright-text .developer-text {display:block; padding-top: 8px;}
 }
